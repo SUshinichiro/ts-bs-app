@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Button, Stack } from 'react-bootstrap';
+
 
 function App() {
   return (
@@ -23,6 +25,10 @@ function App() {
           <label className="form-check-label" htmlFor="flexSwitchCheckDefault">Default switch checkbox input</label>
         </div>
 
+
+        <Button as="a" variant="primary">
+          Button as link
+        </Button>
       </header>
     </div>
   );
